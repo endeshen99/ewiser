@@ -1,0 +1,9 @@
+(ewiser) ubuntu@ip-172-31-84-96:~/ewiser$ python bin/eval_wsd.py --checkpoints res/ewiser.semcor+wngt.pt --xmls ${WSD_FRAMEWORK}/Evaluation_Datasets/ALL/ALL.data.xml ${WSD_FRAMEWORK}/Evaluation_Datasets/42D/42D.data.xml --device cuda
+Loading checkpoints: /home/ubuntu/ewiser/res/ewiser.semcor+wngt.pt
+cuda
+building dataset
+starting evaluation
+res/WSD_Evaluation_Framework/Evaluation_Datasets/ALL/ALL.data.xml
+P: 0.8014614642217014	R: 0.8014614642217014	F1: 0.8014614642217014	N/T:7253/7253	Y/N/M/S: 5813/1440/0/0
+res/WSD_Evaluation_Framework/Evaluation_Datasets/42D/42D.data.xml
+P: 0.5216216216216216	R: 0.5216216216216216	F1: 0.5216216216216216	N/T:370/370	Y/N/M/S: 193/177/0/0
